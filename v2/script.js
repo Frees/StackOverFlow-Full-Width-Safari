@@ -1,4 +1,4 @@
-﻿window.addEventListener('load', () => {
+window.addEventListener('load', () => {
   const full = document.getElementsByName('full');
   const original = document.getElementsByName('original');
   const fullWidth = true;
@@ -69,12 +69,16 @@
 
         setTimeout(() => {
           if (fullWidth) {
-            leftSideBar.style.display = 'none';
+            if (leftSideBar) {
+              leftSideBar.style.display = 'none';
+            }
             content.style.width = '100%';
             mainBar.style.width = '100%';
             sideBar.style.display = 'hidden';
           } else {
-            leftSideBar.style.display = 'flex';
+            if (leftSideBar) {
+              leftSideBar.style.display = 'flex';
+            }
             content.style.width = 'calc(100% - 164px)';
             mainBar.style.width = 'calc(100% - 300px - var(--su-static24))';
             sideBar.style.display = 'visible';
