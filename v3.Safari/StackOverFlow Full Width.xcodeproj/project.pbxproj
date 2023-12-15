@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		776D03022B2CCB7900EFB457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776D03012B2CCB7900EFB457 /* AppDelegate.swift */; };
+		776D03062B2CCB7900EFB457 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 776D03042B2CCB7900EFB457 /* Main.html */; };
+		776D03082B2CCB7900EFB457 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 776D03072B2CCB7900EFB457 /* Icon.png */; };
+		776D030A2B2CCB7900EFB457 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 776D03092B2CCB7900EFB457 /* Style.css */; };
+		776D030C2B2CCB7900EFB457 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 776D030B2B2CCB7900EFB457 /* Script.js */; };
+		776D030E2B2CCB7900EFB457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776D030D2B2CCB7900EFB457 /* ViewController.swift */; };
+		776D03112B2CCB7900EFB457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776D030F2B2CCB7900EFB457 /* Main.storyboard */; };
+		776D03132B2CCB7B00EFB457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776D03122B2CCB7B00EFB457 /* Assets.xcassets */; };
+		776D031C2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 776D031B2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		776D03212B2CCB7B00EFB457 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776D03202B2CCB7B00EFB457 /* SafariWebExtensionHandler.swift */; };
+		776D03362B2CCB7C00EFB457 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 776D032E2B2CCB7C00EFB457 /* images */; };
+		776D03372B2CCB7C00EFB457 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 776D032F2B2CCB7C00EFB457 /* popup.html */; };
+		776D03382B2CCB7C00EFB457 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 776D03302B2CCB7C00EFB457 /* script.js */; };
+		776D03392B2CCB7C00EFB457 /* full-width.js in Resources */ = {isa = PBXBuildFile; fileRef = 776D03312B2CCB7C00EFB457 /* full-width.js */; };
+		776D033A2B2CCB7C00EFB457 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 776D03322B2CCB7C00EFB457 /* style.css */; };
+		776D033B2B2CCB7C00EFB457 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 776D03332B2CCB7C00EFB457 /* manifest.json */; };
+		776D033C2B2CCB7C00EFB457 /* service-worker.js in Resources */ = {isa = PBXBuildFile; fileRef = 776D03342B2CCB7C00EFB457 /* service-worker.js */; };
+		776D033D2B2CCB7C00EFB457 /* original.js in Resources */ = {isa = PBXBuildFile; fileRef = 776D03352B2CCB7C00EFB457 /* original.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		776D031D2B2CCB7B00EFB457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 776D02F62B2CCB7900EFB457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776D031A2B2CCB7B00EFB457;
+			remoteInfo = "StackOverFlow Full Width Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		776D03292B2CCB7B00EFB457 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				776D031C2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		776D02FE2B2CCB7900EFB457 /* StackOverFlow Full Width.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StackOverFlow Full Width.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		776D03012B2CCB7900EFB457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		776D03052B2CCB7900EFB457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		776D03072B2CCB7900EFB457 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		776D03092B2CCB7900EFB457 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		776D030B2B2CCB7900EFB457 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		776D030D2B2CCB7900EFB457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		776D03102B2CCB7900EFB457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		776D03122B2CCB7B00EFB457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		776D03142B2CCB7B00EFB457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776D03152B2CCB7B00EFB457 /* StackOverFlow_Full_Width.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StackOverFlow_Full_Width.entitlements; sourceTree = "<group>"; };
+		776D03162B2CCB7B00EFB457 /* StackOverFlow Full Width.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "StackOverFlow Full Width.entitlements"; sourceTree = "<group>"; };
+		776D031B2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "StackOverFlow Full Width Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		776D03202B2CCB7B00EFB457 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		776D03222B2CCB7B00EFB457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776D03232B2CCB7B00EFB457 /* StackOverFlow_Full_Width_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StackOverFlow_Full_Width_Extension.entitlements; sourceTree = "<group>"; };
+		776D032E2B2CCB7C00EFB457 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = "../../StackOverFlow-Full-Width/v2/images"; sourceTree = "<group>"; };
+		776D032F2B2CCB7C00EFB457 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = "../../StackOverFlow-Full-Width/v2/popup.html"; sourceTree = "<group>"; };
+		776D03302B2CCB7C00EFB457 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = script.js; path = "../../StackOverFlow-Full-Width/v2/script.js"; sourceTree = "<group>"; };
+		776D03312B2CCB7C00EFB457 /* full-width.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "full-width.js"; path = "../../StackOverFlow-Full-Width/v2/full-width.js"; sourceTree = "<group>"; };
+		776D03322B2CCB7C00EFB457 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = style.css; path = "../../StackOverFlow-Full-Width/v2/style.css"; sourceTree = "<group>"; };
+		776D03332B2CCB7C00EFB457 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../StackOverFlow-Full-Width/v2/manifest.json"; sourceTree = "<group>"; };
+		776D03342B2CCB7C00EFB457 /* service-worker.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "service-worker.js"; path = "../../StackOverFlow-Full-Width/v2/service-worker.js"; sourceTree = "<group>"; };
+		776D03352B2CCB7C00EFB457 /* original.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = original.js; path = "../../StackOverFlow-Full-Width/v2/original.js"; sourceTree = "<group>"; };
+		CF55E7F5D26D611056B2D4F5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = file.gitignore; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		776D02FB2B2CCB7900EFB457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776D03182B2CCB7B00EFB457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		776D02F52B2CCB7900EFB457 = {
+			isa = PBXGroup;
+			children = (
+				776D03002B2CCB7900EFB457 /* StackOverFlow Full Width */,
+				776D031F2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension */,
+				776D02FF2B2CCB7900EFB457 /* Products */,
+				CF55E7F5D26D611056B2D4F5 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		776D02FF2B2CCB7900EFB457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				776D02FE2B2CCB7900EFB457 /* StackOverFlow Full Width.app */,
+				776D031B2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776D03002B2CCB7900EFB457 /* StackOverFlow Full Width */ = {
+			isa = PBXGroup;
+			children = (
+				776D03012B2CCB7900EFB457 /* AppDelegate.swift */,
+				776D030D2B2CCB7900EFB457 /* ViewController.swift */,
+				776D030F2B2CCB7900EFB457 /* Main.storyboard */,
+				776D03122B2CCB7B00EFB457 /* Assets.xcassets */,
+				776D03142B2CCB7B00EFB457 /* Info.plist */,
+				776D03152B2CCB7B00EFB457 /* StackOverFlow_Full_Width.entitlements */,
+				776D03162B2CCB7B00EFB457 /* StackOverFlow Full Width.entitlements */,
+				776D03032B2CCB7900EFB457 /* Resources */,
+			);
+			path = "StackOverFlow Full Width";
+			sourceTree = "<group>";
+		};
+		776D03032B2CCB7900EFB457 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				776D03042B2CCB7900EFB457 /* Main.html */,
+				776D03072B2CCB7900EFB457 /* Icon.png */,
+				776D03092B2CCB7900EFB457 /* Style.css */,
+				776D030B2B2CCB7900EFB457 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		776D031F2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension */ = {
+			isa = PBXGroup;
+			children = (
+				776D032D2B2CCB7C00EFB457 /* Resources */,
+				776D03202B2CCB7B00EFB457 /* SafariWebExtensionHandler.swift */,
+				776D03222B2CCB7B00EFB457 /* Info.plist */,
+				776D03232B2CCB7B00EFB457 /* StackOverFlow_Full_Width_Extension.entitlements */,
+			);
+			path = "StackOverFlow Full Width Extension";
+			sourceTree = "<group>";
+		};
+		776D032D2B2CCB7C00EFB457 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				776D032E2B2CCB7C00EFB457 /* images */,
+				776D032F2B2CCB7C00EFB457 /* popup.html */,
+				776D03302B2CCB7C00EFB457 /* script.js */,
+				776D03312B2CCB7C00EFB457 /* full-width.js */,
+				776D03322B2CCB7C00EFB457 /* style.css */,
+				776D03332B2CCB7C00EFB457 /* manifest.json */,
+				776D03342B2CCB7C00EFB457 /* service-worker.js */,
+				776D03352B2CCB7C00EFB457 /* original.js */,
+			);
+			name = Resources;
+			path = "StackOverFlow Full Width Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		776D02FD2B2CCB7900EFB457 /* StackOverFlow Full Width */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776D032A2B2CCB7B00EFB457 /* Build configuration list for PBXNativeTarget "StackOverFlow Full Width" */;
+			buildPhases = (
+				776D02FA2B2CCB7900EFB457 /* Sources */,
+				776D02FB2B2CCB7900EFB457 /* Frameworks */,
+				776D02FC2B2CCB7900EFB457 /* Resources */,
+				776D03292B2CCB7B00EFB457 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				776D031E2B2CCB7B00EFB457 /* PBXTargetDependency */,
+			);
+			name = "StackOverFlow Full Width";
+			productName = "StackOverFlow Full Width";
+			productReference = 776D02FE2B2CCB7900EFB457 /* StackOverFlow Full Width.app */;
+			productType = "com.apple.product-type.application";
+		};
+		776D031A2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776D03262B2CCB7B00EFB457 /* Build configuration list for PBXNativeTarget "StackOverFlow Full Width Extension" */;
+			buildPhases = (
+				776D03172B2CCB7B00EFB457 /* Sources */,
+				776D03182B2CCB7B00EFB457 /* Frameworks */,
+				776D03192B2CCB7B00EFB457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StackOverFlow Full Width Extension";
+			productName = "StackOverFlow Full Width Extension";
+			productReference = 776D031B2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		776D02F62B2CCB7900EFB457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					776D02FD2B2CCB7900EFB457 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					776D031A2B2CCB7B00EFB457 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 776D02F92B2CCB7900EFB457 /* Build configuration list for PBXProject "StackOverFlow Full Width" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 776D02F52B2CCB7900EFB457;
+			productRefGroup = 776D02FF2B2CCB7900EFB457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				776D02FD2B2CCB7900EFB457 /* StackOverFlow Full Width */,
+				776D031A2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		776D02FC2B2CCB7900EFB457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776D03082B2CCB7900EFB457 /* Icon.png in Resources */,
+				776D03112B2CCB7900EFB457 /* Main.storyboard in Resources */,
+				776D030C2B2CCB7900EFB457 /* Script.js in Resources */,
+				776D03062B2CCB7900EFB457 /* Main.html in Resources */,
+				776D03132B2CCB7B00EFB457 /* Assets.xcassets in Resources */,
+				776D030A2B2CCB7900EFB457 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776D03192B2CCB7B00EFB457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776D033C2B2CCB7C00EFB457 /* service-worker.js in Resources */,
+				776D03392B2CCB7C00EFB457 /* full-width.js in Resources */,
+				776D03362B2CCB7C00EFB457 /* images in Resources */,
+				776D033D2B2CCB7C00EFB457 /* original.js in Resources */,
+				776D033A2B2CCB7C00EFB457 /* style.css in Resources */,
+				776D03382B2CCB7C00EFB457 /* script.js in Resources */,
+				776D033B2B2CCB7C00EFB457 /* manifest.json in Resources */,
+				776D03372B2CCB7C00EFB457 /* popup.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		776D02FA2B2CCB7900EFB457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776D030E2B2CCB7900EFB457 /* ViewController.swift in Sources */,
+				776D03022B2CCB7900EFB457 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		776D03172B2CCB7B00EFB457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776D03212B2CCB7B00EFB457 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		776D031E2B2CCB7B00EFB457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 776D031A2B2CCB7B00EFB457 /* StackOverFlow Full Width Extension */;
+			targetProxy = 776D031D2B2CCB7B00EFB457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		776D03042B2CCB7900EFB457 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776D03052B2CCB7900EFB457 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		776D030F2B2CCB7900EFB457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776D03102B2CCB7900EFB457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		776D03242B2CCB7B00EFB457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		776D03252B2CCB7B00EFB457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		776D03272B2CCB7B00EFB457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "StackOverFlow Full Width Extension/StackOverFlow_Full_Width_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StackOverFlow Full Width Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "StackOverFlow Full Width Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.frees.StackOverFlow-Full-Width.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		776D03282B2CCB7B00EFB457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "StackOverFlow Full Width Extension/StackOverFlow_Full_Width_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StackOverFlow Full Width Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "StackOverFlow Full Width Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.frees.StackOverFlow-Full-Width.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		776D032B2B2CCB7B00EFB457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "StackOverFlow Full Width/StackOverFlow Full Width.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StackOverFlow Full Width/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "StackOverFlow Full Width";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.frees.StackOverFlow-Full-Width";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		776D032C2B2CCB7B00EFB457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "StackOverFlow Full Width/StackOverFlow Full Width.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StackOverFlow Full Width/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "StackOverFlow Full Width";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "io.frees.StackOverFlow-Full-Width";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		776D02F92B2CCB7900EFB457 /* Build configuration list for PBXProject "StackOverFlow Full Width" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776D03242B2CCB7B00EFB457 /* Debug */,
+				776D03252B2CCB7B00EFB457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776D03262B2CCB7B00EFB457 /* Build configuration list for PBXNativeTarget "StackOverFlow Full Width Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776D03272B2CCB7B00EFB457 /* Debug */,
+				776D03282B2CCB7B00EFB457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776D032A2B2CCB7B00EFB457 /* Build configuration list for PBXNativeTarget "StackOverFlow Full Width" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776D032B2B2CCB7B00EFB457 /* Debug */,
+				776D032C2B2CCB7B00EFB457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 776D02F62B2CCB7900EFB457 /* Project object */;
+}

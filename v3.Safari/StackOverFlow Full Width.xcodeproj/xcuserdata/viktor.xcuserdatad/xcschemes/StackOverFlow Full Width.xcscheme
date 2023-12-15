@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "776D02FD2B2CCB7900EFB457"
+               BuildableName = "StackOverFlow Full Width.app"
+               BlueprintName = "StackOverFlow Full Width"
+               ReferencedContainer = "container:StackOverFlow Full Width.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "776D02FD2B2CCB7900EFB457"
+            BuildableName = "StackOverFlow Full Width.app"
+            BlueprintName = "StackOverFlow Full Width"
+            ReferencedContainer = "container:StackOverFlow Full Width.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>
