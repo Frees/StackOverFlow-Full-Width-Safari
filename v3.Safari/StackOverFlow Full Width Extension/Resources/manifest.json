@@ -1,0 +1,39 @@
+﻿{
+  "name": "StackOverFlow Full Width",
+  "version": "2.0.1",
+  "manifest_version": 3,
+  "description": "Enjoy Full Width of StackOverFlow without any distraction.",
+  "icons": {
+    "64": "images/icon-64.png",
+    "128": "images/icon-128.png"
+  },
+  "action": {
+    "default_title": "StackOverFlow Full Width",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "64": "images/icon-64.png",
+      "128": "images/icon-128.png"
+    }
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["https://stackoverflow.com/questions/*"],
+  "commands": {
+    "enable": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+L",
+        "mac": "Command+Shift+L"
+      },
+      "description": "Enable Full Width"
+    },
+    "disable": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+K",
+        "mac": "Command+Shift+K"
+      },
+      "description": "Disable Full Width"
+    }
+  }
+}
