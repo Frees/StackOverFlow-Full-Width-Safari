@@ -3,6 +3,7 @@ window.addEventListener('load', () => {
   const original = document.getElementsByName('original');
   const fullWidth = true;
 
+
   for (const element of full) {
     element.onclick = () => {
       chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
@@ -28,7 +29,8 @@ window.addEventListener('load', () => {
   }
 
   function enable(fullWidth) {
-    console.log('Window loaded');
+    localStorage.setItem("enable", fullWidth);
+    console.log('Window loadedX3');
 
     // wait until passed selector is finished loading
     function waitForElement(selector) {
